@@ -19,6 +19,7 @@ import Products from './pages/Products';
 import Contact from './pages/Contact';
 import Header from './partials/Header';
 import Footer from './partials/Footer';
+import Mukham from './pages/Mukham';
 
 function App() {
 
@@ -46,11 +47,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         {/* <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/reset-password" element={<ResetPassword />} /> */}
+        <Route path="/mukham" element={<Mukham />} />
       </Routes>
 
       <Footer />

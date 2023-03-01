@@ -31,7 +31,7 @@ function Header() {
           {/* Site navigation */}
           <nav className="flex flex-grow">
             {/* ul with site navigations -> about, products, contact */}
-            {/* <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
               </li>
@@ -41,7 +41,7 @@ function Header() {
               <li>
                 <Link to="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
               </li>
-            </ul> */}
+            </ul>
 
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
